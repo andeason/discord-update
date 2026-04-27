@@ -16,7 +16,7 @@ def get_discord_download_path(args: Object) -> str:
         case "stable":
             path = "https://discord.com/api/download?platform=linux&format=tar.gz"
 
-    display_verbose_message(args.verbose, f"Downloading discord file from {path}")
+    display_verbose_message(args.verbose, f"Downloading discord file with path: {path}")
     return path
 
 
